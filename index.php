@@ -1,9 +1,6 @@
 <?php
-error_reporting(E_ALL);
-ini_set("display_errors", true);
+include "init.php";
 include "header.php";
-include "library/MysqliDb.php";
-$db = new MysqliDb ('localhost', 'root', 'yeganemehr', 'angel');
 ?>
 <section class="container" id="products">
 	<header>
@@ -24,7 +21,7 @@ $db = new MysqliDb ('localhost', 'root', 'yeganemehr', 'angel');
 				<div class="cover">
 					<p class="cover-header"><?php echo $products[$x]['title']; ?></p>
 					<p><?php echo $products[$x]['description']; ?></p>
-					<a class="btn btn-custom" href="/product-<?php echo $products[$x]['id']; ?>"><i class="fa fa-shopping-cart"></i> خرید</a>
+					<a class="btn btn-custom" href="/product.php?id=<?php echo $products[$x]['id']; ?>"><i class="fa fa-shopping-cart"></i> خرید</a>
 				</div>
 			</div>
 		</div>

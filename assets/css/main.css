@@ -207,3 +207,110 @@ a, a:hover {
 	text-align: center;
 	border: 2px solid rgba(198,201,216,.75);
 }
+
+#product-details {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#product-details .product-image {
+	width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+#product-details  .product-right {
+	width: 300px;
+	padding: 0 25px;
+	float: right;
+}
+#product-details  .product-right .btn-shop {
+	margin: 25px 0;
+}
+#product-details  .product-right .stars a {
+	color: #f81f01;
+	font-size: 30px;
+}
+#product-details .details {
+	width: calc(100% - 300px);
+	float: right;
+}
+#product-details .details h1 {
+	text-align: center;
+    line-height: 27px;
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 43px;
+	border-bottom: 1px solid #e1e1e1;
+	color: #1f1f25;
+	font-family: nazanin;
+	font-weight: bold;
+	font-size: 50px;
+}
+#product-details .details p {
+	line-height: 30px;
+	font-size: 16px;
+    color:  rgba(29,29,36,.75);
+    text-align: justify;
+}
+#product-details .comments {
+	margin-top: 50px;
+}
+#product-details .comments-list h2 {
+    font-family: yekan;
+    width: 225px;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f81f01;
+	padding-right: 15px;
+}
+#product-details  .comment {
+	border-bottom: 1px solid #eee;
+	margin: 20px 0;
+}
+#product-details  .comment:last-child {
+	border-bottom: 0;
+}
+#product-details  .comment .name {
+	font-family: koodak;
+    font-size: 20px;
+}
+#product-details .comment .date {
+	margin: 12px 0;
+}
+#product-details .comment .alert .fa {
+	font-size: 18px;
+}
+#product-details .btn-custom {
+	background: #f9004d;
+	border: 2px solid #f9004d;
+	border-radius: 4px;
+	position: relative;
+	color: #fff;
+	font-family: yekan;
+	transition: .3s;
+}
+#product-details .btn-custom:hover {
+	color: #f9004d;
+	background: #fff;
+	-webkit-transform: translateY(-10px);
+	transform: translateY(-10px);
+	box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+}
+.comment-form {
+	margin-top: 70px;
+}
+.comment-form label {
+	font-family: yekan;
+	font-size: 14px;
+}
+.comment-form .form-control {
+	border: 2px solid rgba(0,0,0,.1);
+	box-shadow: none;
+}
+.comment-form input.form-control, .comment-form select.form-control {
+	height: 42px;
+}
+.comment-form .form-control:focus {
+	box-shadow: none;
+	border-color: #f9004d;
+}
